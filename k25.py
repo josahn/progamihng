@@ -3,6 +3,7 @@ from stanfordkarel import *
 
 def main():
     """ Karel code goes here! """
+    
     move()
     move()
     turn_left()
@@ -16,7 +17,6 @@ def main():
     turn_left()
     turn_left()
     move()
-    turn_left()
     turn_left()
     turn_left()
     turn_left()
