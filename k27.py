@@ -1,4 +1,4 @@
-pytfrom stanfordkarel import *
+from stanfordkarel import *
 
 
 def main():
