@@ -79,61 +79,50 @@ class ktools:
     self.m()
     self.m()
     self.m()
+
+   def pick4(self):
+    """pickup beeper 4 times """
+    self.pick()
+    self.m()
+    self.pick()
+    self.m()
+    self.pick()
+    self.m()
+    self.pick()
+     
+   def pick3(self):
+    """pickup beeper 3 times"""
+    self.pick()
+    self.m()
+    self.pick()
+    self.m()
+    self.pick()
+   def pick2(self):
+    """pickup beeper twice"""
+    self.pick()
+    self.m()
+    self.pick()
+     
+       
     
 
      
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.h()
-    kt.put2()
-    kt.m()
-    kt.put()
-    kt.tl()
-    kt.tl()
-    kt.m2()
-    kt.tr()
-    kt.put5()
-    kt.tr()
-    kt.m()
-    kt.put2()
-    kt.tr()
-    kt.m2()
-    kt.put()
-    kt.tr()
-    kt.m()
-    kt.put()
-    kt.tl()
     kt.m2()
     kt.tl()
-    kt.m3()
-    kt.put2()
     kt.m()
-    kt.put()
-    kt.tl()
-    kt.tl()
-    kt.m2()
-    kt.tr()
-    kt.put5()
-    kt.tr()
-    kt.m2()
-    kt.m2()
-    kt.tr()
-    kt.put5()
-    kt.tl()
-    kt.m()
-    kt.put2()
-    kt.m2()
-    kt.tl()
-    kt.put5()
+    kt.pick4()
     kt.tr()
     kt.m()
-    kt.put2()
-    kt.tr()
-    kt.put5()
+    kt.pick3()
     kt.tr()
     kt.m()
-    kt.put2()
+    kt.pick3()
+    kt.tr()
+    kt.m()
+    kt.pick2()
     
     pass
 
