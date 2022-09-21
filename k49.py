@@ -1,5 +1,5 @@
 from stanfordkarel import *
-
+from time import sleep
 
 class ktools:
   def m(self):
@@ -7,7 +7,7 @@ class ktools:
     move()
 
   def tlself():
-   """turn left"""
+    """turn left"""
     turn_left()
 
   def tr(self):
@@ -118,7 +118,12 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-  
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.mazemove()
+    kt.m()
+
     pass
 
 
