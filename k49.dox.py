@@ -1,4 +1,4 @@
-from stanfordkarel import *
+pythfrom stanfordkarel import *
 
 
 class ktools:
@@ -163,59 +163,7 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.mm(4)
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.tl()
-    kt.tl()
-    kt.mm(2)
-    kt.put()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.tl()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.put()
-    kt.tr()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.tl()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.tr()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.tl()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
+    
     pass
 
 

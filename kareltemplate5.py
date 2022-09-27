@@ -156,6 +156,41 @@ class ktools:
     self.m()
     self.m()
     self.m()
+
+  def SOB(self) -> bool:
+    """standing on beeper"""
+    return beepers_present()
+
+  def jump(self):
+    """jumpfor 510"""
+    while self.fic():
+      self.m()
+    self.tl()
+    while self.rib():
+      self.m()
+    self.tr()
+    self.m()
+    self.tr()
+    while self.fic():
+      self.m()
+    self.tl()
+
+  def find(self):
+    """find for 515"""
+    while not facing_north():
+      self.tl()
+    self.m()
+    if not self.SOB():
+      self.tl()
+      self.m()
+      self.tl()
+      self.m()
+    for _ in range(2):
+      if not self.SOB():
+        self.m()
+        self.tl()
+        self.m()
+    pass
     
     pass
 
@@ -163,59 +198,7 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.mm(4)
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.tl()
-    kt.tl()
-    kt.mm(2)
-    kt.put()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.tl()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.put()
-    kt.tr()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.tl()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.tr()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.put()
-    kt.mm(2)
-    kt.put()
-    kt.tl()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.put()
+    
     pass
 
 
