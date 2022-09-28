@@ -1,6 +1,7 @@
 from stanfordkarel import *
 
 
+
 class ktools:
   def m(self):
     """shorthand for move"""
@@ -198,18 +199,53 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
+    kt.put()
+    kt.m()
+    kt.put()
     kt.tl()
-    kt.m2()
-    kt.tr()
     kt.m()
-    kt.tr()
-    kt.m2()
+    kt.putm(4)
+    kt.tl()
+    kt.m()
+    kt.put()
     kt.ta()
+    kt.m2()
+    kt.put()
+    kt.mm(2)
+    kt.putm(3)
+    kt.tr()
     kt.m()
+    kt.putm(4)
+    kt.tr()
+    kt.m()
+    kt.putm(2)
+    kt.tr()
+    kt.m()
+    kt.putm(3)
+    kt.m()
+    kt.tr()
+    kt.mm(4)
+    kt.put()
+    kt.putm(2)
     kt.tr()
     kt.m()
     kt.tr()
     kt.m()
+    kt.put()
+    kt.ta()
+    kt.tr()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.put()
+    kt.tr()
+    kt.m()
+    kt.put()
+    kt.m()
+    kt.put()
+    
+    
     pass
 
 
